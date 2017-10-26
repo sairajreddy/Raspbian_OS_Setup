@@ -51,10 +51,11 @@ You can use the shell script [RaspbianOSsetup.sh](/RaspbianOSsetup.sh) to instal
 **Instructions for Use**
 
   1. Follow the instructions provided in the Raspberry Pi official documentation page to download and setup Raspbian OS on your        Raspberry Pi.
-  2. Copy the Shell script [RaspbianOSsetup.sh](/RaspbianOSsetup.sh) to your Raspberry Pi.
-  3. On the Raspberry Pi terminal, execute the following
- - chmod u+x RaspbianOSSetup.sh
- - ./RaspbianOSSetup.sh
+  2. Copy the Shell script corresponding to your Raspbian version to the Raspberry Pi hardware. 
+  3. On the Raspberry Pi terminal, run the shell script.
+  For example
+ - chmod u+x RaspbianOSSetup_Jessie.sh
+ - ./RaspbianOSSetup_Jessie.sh
  4. On completion of the Shell script, restart your Raspberry Pi to complete the setup
 
 **Testing**
