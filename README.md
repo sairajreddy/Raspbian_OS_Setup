@@ -46,7 +46,11 @@ Following is the list of required software packages and libraries
 2. WiringPi
 3. PiGPIO
 
-You can use the shell script [RaspbianOSsetup.sh](/RaspbianOSsetup.sh) to install the required packages and libraries along with the ROS specific packages and libraries.
+You can use the shell script to install the required packages and libraries along with the ROS specific packages and libraries.
+Depending on the version of the Raspbian OS running on your Raspberry Pi, use the following shell scripts.
+
+1. For Raspbian Jessie - [RaspbianOSSetup_Jessie.sh](/RaspbainOSSetup_Jessie.sh)
+2. For Raspbian Stretch - [RaspbianOSSetup_Stretch.sh](/RaspbainOSSetup_Stretch.sh)
 
 **Instructions for Use**
 
